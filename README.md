@@ -6,7 +6,7 @@ The official code of the paper **[A Complete Expressiveness Hierarchy for Subgra
 
 ## Training logs
 
-- Each log file in the `logs` folder contains the training result of a model configuration. Each file is named by the corresponding dataset (ZINC-subset or ZINC-full), model string, batch size, distance encoding hyper-parameter, and random seed, with the form `logs/<subset>.<model>.<batch size>.<max distance>.<seed>.txt`. In each file, the i-th row contains four metrics at the i-th training epoch: learning rate, training loss, validation MAE, and test MAE.
+- Each log file in the `logs` folder contains the training result of a model configuration. Except SUN's log files, each file is named by the corresponding dataset (ZINC-subset or ZINC-full), model string, batch size, distance encoding hyper-parameter, and random seed, with the form `logs/<subset>.<model>.<batch size>.<max distance>.<seed>.txt`. As for SUN's log files, each file is named with the form `logs/<policy>.<model>.<seed>`. In each file, the i-th row contains four metrics at the i-th training epoch: learning rate, training loss, validation MAE, and test MAE.
 
 
 ## History
