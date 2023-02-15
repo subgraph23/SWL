@@ -1,6 +1,6 @@
 # SWL
 
-The official code of the paper **[A Complete Expressiveness Hierarchy for Subgraph GNNs via Subgraph Weisfeiler-Lehman Tests]()**.
+The official code of the paper **[A Complete Expressiveness Hierarchy for Subgraph GNNs via Subgraph Weisfeiler-Lehman Tests](https://arxiv.org/abs/2302.07090)**.
 
 <img src="algorithm.png" alt="algorithm" style="zoom:36%;" />
 
