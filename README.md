@@ -4,6 +4,14 @@ The official code of the paper **[A Complete Expressiveness Hierarchy for Subgra
 
 <img src="algorithm.png" alt="algorithm" style="zoom:36%;" />
 
+## History
+
+- 02/13: initial commit.
+- 02/15: add training logs on ZINC-subset and ZINC-full datasets.
+- 03/21: add training logs on coutning substructure dataset and ogbg-molhiv dataset.
+- 05/02: relase the full code.
+- Upcoming: update Readme.
+
 ## Training Logs
 
 Each log file in the `logs` folder contains the training result of a model configuration. In each file, the i-th row contains metrics at the i-th training epoch, typically, the learning rate, training loss, validation MAE, and test MAE.
@@ -24,19 +32,13 @@ All log files are in the `logs/ogbg-molhiv` folder.
 
 Our code is motivated by the code of [SUN](https://github.com/beabevi/sun).
 
-## History
-
-- 02/13: initial commit.
-- 02/15: add training logs on ZINC-subset and ZINC-full datasets.
-- 03/21: add training logs on coutning substructure dataset and ogbg-molhiv dataset.
-
 ## Citation
 
 ```
-@article{zhang2023complete,
+@inproceedings{zhang2023complete,
   author = {Zhang, Bohang and Feng, Guhao and Du, Yiheng and He, Di and Wang, Liwei},
   title = {A Complete Expressiveness Hierarchy for Subgraph GNNs via Subgraph Weisfeiler-Lehman Tests},
-  journal = {arXiv preprint arXiv:2302.07090},
+  booktitle = {International Conference on Machine Learning},
   year = {2023},
 }
 ```

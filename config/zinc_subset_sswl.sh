@@ -1,0 +1,1 @@
+python main_zinc.py --dir 'zinc' --outdir 'result' --model SSWL --subset --max_dis 5 --epochs 400 --wd 0 --seed 1
