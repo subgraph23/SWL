@@ -10,7 +10,21 @@ The official code of the paper **[A Complete Expressiveness Hierarchy for Subgra
 - 02/15: add training logs on ZINC-subset and ZINC-full datasets.
 - 03/21: add training logs on coutning substructure dataset and ogbg-molhiv dataset.
 - 05/02: relase the full code.
-- Upcoming: update Readme.
+- 06/19: update README.
+
+## Installation
+
+Required packages:
+- torch 1.9.0
+- torch-cluster 1.5.9
+- torch-scatter 2.0.8
+- torch-sparse 0.6.11
+- torch-spline-conv 1.2.1
+- torch-geometric 1.7.2
+
+## Commands
+
+See config files in the `config` folder.
 
 ## Training Logs
 
